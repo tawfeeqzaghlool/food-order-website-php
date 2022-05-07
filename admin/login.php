@@ -27,7 +27,7 @@
             ?>
             <br><br>
 
-            <!-- Login Form Starts HEre -->
+            <!-- Login Form Starts Here -->
             <form action="" method="POST" class="text-center">
             Username: <br>
             <input type="text" name="username" placeholder="Enter Username"><br><br>
@@ -38,9 +38,9 @@
             <input type="submit" name="submit" value="Login" class="btn-primary">
             <br><br>
             </form>
-            <!-- Login Form Ends HEre -->
+            <!-- Login Form Ends Here -->
 
-            <p class="text-center">Created By - <a href="www.vijaythapa.com">Vijay Thapa</a></p>
+            <p class="text-center">Created By - <a href="https://github.com/tawfeeqzaghlool">Tawfeeq Zaghlool</a></p>
         </div>
 
     </body>
@@ -48,7 +48,7 @@
 
 <?php 
 
-    //CHeck whether the Submit Button is Clicked or NOt
+    //CHeck whether the Submit Button is Clicked or Not
     if(isset($_POST['submit']))
     {
         //Process for Login

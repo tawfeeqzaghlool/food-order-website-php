@@ -20,10 +20,10 @@
                 //Count Rows
                 $count = mysqli_num_rows($res);
 
-                //CHeck whether categories available or not
+                //Check whether categories available or not
                 if($count>0)
                 {
-                    //CAtegories Available
+                    //Categories Available
                     while($row=mysqli_fetch_assoc($res))
                     {
                         //Get the Values
